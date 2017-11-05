@@ -3,26 +3,29 @@ body{
   background-color: #D5CFCE;
 }
 section{
-  max-width: 60%;
+  max-width: 85%;
   margin: auto;
 font-family: 'Saira Semi Condensed', sans-serif;
 }
 section.heading{
-  background-image: url('galeria/header.jpg');
+  background-image: url("../images/head.jpg");
   background-repeat: no-repeat;
-  height: 150px;
+  height: 200px;
 }
 .heading h1{
-  text-align: right;
+  text-align: left;
+  padding-top: 40px;
   padding-bottom: 40px;
-  padding-right: 40px;
+  padding-left: 40px;
   font-weight: bold;
+  color: #F2F2F2;
 }
 .heading p{
-  text-align: right;
+  text-align: left;
   padding-bottom: 40px;
-  padding-right: 40px;
+  padding-left: 40px;
   font-weight: bold;
+  color: #F2F2F2;
 }
 .main p{
   text-align: justify;
@@ -40,8 +43,8 @@ float : left;
 margin-right: 20px;
 }
 img.jobbra{
-  float: left;
-  margin-right: 20px;
+  float: right;
+  margin-left: 20px;
 }
 footer p{
 margin: auto;
