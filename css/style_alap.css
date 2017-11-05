@@ -1,0 +1,160 @@
+body {
+   background-color : #3c7d9e;
+/* background-image : url('bg.jpg') ;
+   background-repeat : no-repeat ;
+   background-position : top center ; */
+   margin-top: 0px;
+   margin-right: auto;   
+   margin-bottom: 0px;   
+   margin-left: auto;
+   width : 90%;
+   max-width: 780px;   
+   font-family: Verdana, Arial, Helvetica, Sans-serif;   
+}
+
+header {
+	padding: 0px;
+	height: 150px;
+	background: #000000;
+	background-image:url('header.jpg');
+	background-repeat: no-repeat;
+	border: 0;
+	font-weight: bold;
+}
+
+header > h1{
+    margin: 0px;
+    font-size: 200%;	
+	text-align: right;
+	color: #000000; 
+	padding: 30px;
+}
+
+header > p{
+    font-size:100%;	
+    text-align:right;
+    color:#000000;
+}
+
+nav {
+	background: #ebc34b;
+	color: #FFFFFF;
+	padding: 10px 30px 10px 30px;
+}
+
+nav > p{
+    margin: 0px;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+section {
+	background: #FFFFFF;
+	color: #333333;
+	padding: 10px 30px 10px 30px;
+}
+
+section > a{
+	font-size: 11pt;
+    color: #000000;
+    text-decoration: underline; 
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+
+section > a:visited {
+    color : #000000;
+}
+
+section > a:active {
+    color : #000000; 
+}
+
+section > img.balra{
+  float: left;
+  margin: 20px;  
+}
+
+section > img.jobbra{
+  float: right;
+  margin: 20px;  
+}
+
+
+footer {
+	background: #ebc34b;
+	color: #333333;
+	padding: 0px;
+}
+
+footer > p{
+    margin: 0px;
+    color :#FFFFFF;
+    padding: 10px;
+    text-align: center;
+}
+
+p, dl, details{
+	font-size: 11pt;
+	color: #000000;
+	text-align: justify;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+
+ol, ul{
+	font-size: 11pt;
+	color: #000000;
+	text-align: justify;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+}
+
+h1 {
+	color: #faba5a;
+	font-size: 16pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+h2 {
+	font-size: 14pt;
+	font-weight: bold;
+	color: #faba5a;
+	text-align: left;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+
+a {
+    color : #FFFFFF;
+    text-decoration: none
+}
+
+a:visited {
+    color : #FFFFFF;
+}
+
+a:active {
+    color : #FFFFFF; 
+}
+
+table{
+/* border: 1px solid black;*/
+  border: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+iframe{
+  margin : 30px;
+}
+
