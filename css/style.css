@@ -120,6 +120,7 @@ h1, h2, h3, h4, h5, h6, figure {
   .gtco-nav #gtco-logo {
     font-size: 2rem;
     font-weight: 3rem
+    opacity:1 !important;
   }
 }
 @media screen and (min-width: 768px) {
