@@ -553,8 +553,8 @@
           var distance = response.rows[0].elements[0].distance.text;
           var distancefinel = distance.split(" ");
           document.getElementById('distance').value = distancefinel[0].toString();
-          var km = document.getElementById('distance').value = distancefinel[0];
-          var price = (450 + (km * 270));
+          var km = document.getElementById('distance').value = parsFloat(distancefinel[0]);
+          var price = parsFloat(450 + (km * 270));
           var valueIsNaN = isNaN(price);
           console.log(valueIsNaN);
           alert(valueIsNaN);
