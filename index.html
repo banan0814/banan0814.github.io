@@ -555,8 +555,9 @@
           document.getElementById('distance').value = distancefinel[0].toString();
           var km = document.getElementById('distance').value = distancefinel[0];
           var price = (450 + (km * 270));
-          console.log(price);
-          alert(price.toString());
+          var valueIsNaN = isNaN(price);
+          console.log(valueIsNaN);
+          alert(valueIsNaN);
           document.getElementById('price').value = price.toString();
         } else {
           alert("Unable to find the distance via road.");
