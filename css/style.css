@@ -32,7 +32,6 @@
 body {
   font-family: "Lato", Arial, sans-serif;
   font-weight: 400;
-  font-size: 16px;
   line-height: 1.7;
   color: #777;
   background: #fff;
@@ -109,7 +108,6 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .gtco-container {
-  max-width: 1100px;
   position: relative;
   margin: 0 auto;
   padding-left: 15px;
@@ -325,15 +323,34 @@ h1, h2, h3, h4, h5, h6, figure {
     font-weight: 300;
     opacity:1 !important;
   }
+  .taxinumber{
+    margin: 0;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-family: Phage;;
+    color: #F19F35 !important;
+    opacity:1 !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  .taxinumber{
+    margin: 0;
+    text-align: center;
+    font-size: 45px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-family: Phage;;
+    color: #F19F35 !important;
+    opacity:1 !important;
+  }
 }
 
 .row{
   margin: 0;
-}
-.taxinumber{
-  font-family: Phage;;
-  color: #F19F35 !important;
-  opacity:1 !important;
 }
 
 #gtco-header h2 {
@@ -805,6 +822,7 @@ form label {
 
 #gtco-features {
   background: #F2B11B;
+  width: 100%;
 }
 #gtco-features .gtco-heading h2 {
   color: #fff;
@@ -821,10 +839,12 @@ form label {
   border: 1px solid rgba(255, 255, 255, 0.8);
   background: #F2B11B;
 }
-#gtco-features .feature-center .icon i {
+#gtco-features .feature-center .icon{
   color: #fff;
+  position: relative;
   font-size: 40px;
-  font-style: normal;
+  text-align: center;
+  padding-top: 25px;
 }
 #gtco-features .feature-center h3 {
   font-weight: 400;
