@@ -56,7 +56,7 @@
       <label for="pwd">Distance in km :</label>
       <input type="text" class="form-control distance" id="distance"readonly>
       <label for="pwd">Ár:</label>
-      <input type="text" class="form-control" id="price"readonly>
+      <input type="number" class="form-control" id="price"readonly>
     </div>
   </div>
   <div id="map"></div>
@@ -190,7 +190,7 @@
           document.getElementById('distance').value=distancefinel[0].toString();
           var km = document.getElementById('distance').value=distancefinel[0];
           var price = 450 + (km * 270);
-          document.getElementById('price').value = price.toString();
+          document.getElementById('price').value=price;
         } else {
           alert("Unable to find the distance via road.");
         }
