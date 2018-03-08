@@ -280,7 +280,7 @@
                           <div class="row form-group">
                             <div class="col-md-12">
                               <label for="price">Körülbelüli ár:</label>
-                              <input type="number" class="form-control" id="price" readonly>
+                              <input type="text" class="form-control" id="price" readonly>
                             </div>
                           </div>
                         </form>
@@ -555,7 +555,8 @@
           document.getElementById('distance').value = distancefinel[0].toString();
           var km = document.getElementById('distance').value = distancefinel[0];
           var price = 450 + (km * 270);
-          document.getElementById('price').value = price;
+          console.log(price);
+          document.getElementById('price').value = distancefinel[0].toString();
         } else {
           alert("Unable to find the distance via road.");
         }
