@@ -11,6 +11,15 @@
 	src: url(../fonts/POLYA.otf);
 }
 
+@font-face {
+  font-family: Riviera;
+  src: url(../fonts/Riviera.otf);
+}
+@font-face {
+  font-family: ALLEGIANT;
+  src: url(../fonts/ALLEGIANT.otf);
+}
+
 /* =======================================================
 *
 * 	Template Style
@@ -121,18 +130,20 @@ h1, h2, h3, h4, h5, h6, figure {
     font-size: 2rem;
     font-weight: 3rem
     opacity:1 !important;
+    font-family: Riviera;
   }
 }
 @media screen and (min-width: 768px) {
   .gtco-nav #gtco-logo {
     font-size: 6em;
+    font-family: Riviera;
   }
 }
 .gtco-nav #gtco-logo {
   margin: 0;
   padding: 0;
   text-transform: uppercase;
-  
+
 }
 
 .gtco-nav a {
@@ -307,11 +318,14 @@ h1, h2, h3, h4, h5, h6, figure {
     font-size: 34px;
     line-height: 1.2;
     margin-bottom: 10px;
+    font-weight: 300;
+    opacity:1 !important;
   }
 }
 .taxinumber{
-  font-family: POLYA;
+  font-family: Riviera;;
   color: #F19F35 !important;
+  opacity:1 !important;
 }
 
 #gtco-header h2 {
