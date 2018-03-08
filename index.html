@@ -11,9 +11,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Taxi3Eger &mdash;</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Free HTML5 Website Template by GetTemplates.co" />
-  <meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
-  <meta name="author" content="GetTemplates.co" />
+  <meta name="description" content="Taxi3 Eger Weboldala" />
+  <meta name="keywords" content="taxi, taxi3 eger, taxi eger, eger, egertaxi, taxi in eger, bevásárlás, city taxi" />
+  <meta name="author" content="Vig Balázs" />
 
   <!-- Facebook and Twitter integration -->
   <meta property="og:title" content="" />
@@ -77,7 +77,7 @@
             <div class="row">
               <div class="col-xs-12 text-right menu-1">
                 <ul>
-                  <li><a href="#features">Szolgáltatásink</a></li>
+                  <li><a href="#" class="js-godown">Szolgáltatásink</a></li>
                   <li><a href="#about">Rólunk</a></li>
                   <li><a href="#price">Áraink</a></li>
                   <li><a href="#calc">Viteldíj kalulátor</a></li>
@@ -556,8 +556,6 @@
           var km = document.getElementById('distance').value = parseFloat(distancefinel[0]);
           var price = parseFloat(450 + (km * 270));
           var valueIsNaN = isNaN(price);
-          console.log(valueIsNaN);
-          alert(valueIsNaN);
           document.getElementById('price').value = price.toString();
         } else {
           alert("Unable to find the distance via road.");
