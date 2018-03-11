@@ -417,7 +417,6 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #calchead {
   margin-top: 5rem;
-  font-size: 50px;
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: 300;
@@ -1061,7 +1060,7 @@ form label {
 }
 
 .gtco-heading {
-  margin-bottom: 5em;
+  margin-bottom: 3em;
 }
 
 .gtco-heading.gtco-heading-sm {
