@@ -249,7 +249,7 @@
               <h2 id="calchead">Viteldíj Kalkulátor</h2>
             </div>
             <div class="col-md-4 col-md-offset-0 text-left" id="gtco-header">
-              <div class="col-md-12 col-md-push-1 animate-box" data-animate-effect="fadeInRight">
+              <div class="col-md-12 col-md-push-1 animate-box" data-animate-effect="fadeInRight" id="calculator">
                 <div class="form-wrap">
                   <div class="tab">
                     <div class="tab-content">
@@ -618,7 +618,7 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVHv1xAjFTdUucdPmg4bS6kIJCVEsH0eU&libraries=places&callback=initMap" async defer></script>
   <script type="text/javascript">
    function btntoggle(){
-     var item = document.getElementById('calc');
+     var item = document.getElementById('calculator');
        if(item.style.display == "none"){
            item.style.display = "block";
        }
