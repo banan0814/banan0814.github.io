@@ -424,20 +424,9 @@
         country(km);
       }
 
-      //cityorcounrty(km);
 
     }
-/*
-    function cityorcounrty(km) {
-      source = document.getElementById("start").value;
-      destination = document.getElementById("end").value;
-      if (source.includes("Eger,") && destination.includes("Eger,")) {
-        city(km);
-      } else {
-        country(km);
-      }
-    }
-*/
+
     function city(km) {
       var price = parseInt(450 + (km * 280));
       document.getElementById('price').value = price.toString() + ' Ft';
@@ -446,7 +435,6 @@
     function country(km) {
       var price = parseInt(450 + (km * 380));
       document.getElementById('price').value = price.toString() + ' Ft';
-      alert(price);
     }
 
     function toggleBounce() {
