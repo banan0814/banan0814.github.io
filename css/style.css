@@ -519,6 +519,16 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
 }
 
+.searchbox {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+.searchbox:focus {
+    width: 100%;
+}
 .gtco-bg {
   background-position: center center;
   width: 100%;
